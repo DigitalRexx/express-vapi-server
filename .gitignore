@@ -1,0 +1,11 @@
+# Ignore API keys and secrets
+.env
+
+# Ignore the massive downloaded dependencies folder
+node_modules/
+
+# Ignore Mac OS system files (good practice even if you are on Linux)
+.DS_Store
+
+# Ignore npm debug logs if a crash occurs
+npm-debug.log*
